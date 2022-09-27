@@ -4,9 +4,10 @@
 
 <p>Edad del empleado {{edad}}</p>
 
-<p>Empresa del empleado: {{empresa.value}}</p>
+<p>Empresa del empleado: {{empresa}}</p>
 
-introduce la empresa: <input type="text" #empresa (keyup)="0" [disabled]="habilitacionDelCuadro">
+<!--introduce la empresa: <input type="text" #empresa (keyup)="0" [disabled]="habilitacionDelCuadro">-->
+introduce la empresa: <input type="text" [(ngModel)]="empresa">
 
 <br>
 <br>

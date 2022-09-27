@@ -9,10 +9,11 @@ export class EmpleadoComponent implements OnInit {
   nombre="Luis";
   apellido="Hernandez";
   edad=18;
-  //empresa="Solser";
+  empresa="Solser";
   habilitacionDelCuadro= true;
   usuRegistrado = false;
   textoDeRegistro= "Usuario no registrado";
+
 
   getRegistroUsuario(){
     this.usuRegistrado = false;
